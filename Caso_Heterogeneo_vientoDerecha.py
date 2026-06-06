@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
@@ -172,10 +166,3 @@ anim = FuncAnimation(fig, actualizar, frames=len(frames), interval=70)
 anim.save("hetero_viento.gif", writer=PillowWriter(fps=12))
 
 plt.show()
-
-
-# In[ ]:
-
-
-
-
