@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -218,9 +212,17 @@ anim.save("Losacio_aproximado.gif", writer=PillowWriter(fps=12))
 
 plt.show()
 
+# Gráfica de evolución de la superficie quemada
 
-# In[ ]:
+tiempos = np.arange(len(areas)) * dt
 
+plt.figure(figsize=(7, 4))
+plt.plot(tiempos, areas, linewidth=2)
 
+plt.xlabel("Tiempo simulado")
+plt.ylabel("Superficie quemada (ha)")
+plt.title("Evolución de la superficie afectada durante la simulación")
+plt.grid(True)
 
-
+plt.savefig("Evolucion_temporal_superficie.png", dpi=300, bbox_inches="tight")
+plt.show()
