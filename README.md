@@ -167,24 +167,6 @@ Utilizada para:
 
 ---
 
-## Ejecución
-
-Instalar las dependencias necesarias:
-
-```bash
-pip install numpy matplotlib scipy pillow
-```
-
-Ejecutar cualquiera de los programas disponibles:
-
-```bash
-python nombre_del_programa.py
-```
-
-Las simulaciones generarán automáticamente las figuras y animaciones correspondientes.
-
----
-
 ## Resultados
 
 Las simulaciones permiten analizar de forma cualitativa la influencia de distintos factores sobre la evolución geométrica del frente de incendio.
