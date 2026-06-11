@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
@@ -122,10 +116,3 @@ anim.save(
 )
 
 plt.show()
-
-
-# In[ ]:
-
-
-
-
